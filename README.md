@@ -76,6 +76,11 @@ Quick and simple:
 echo '<img src="'.(new QRCode)->render($data).'" />';
 ```
 
+Quick and simple (with composer):
+```php
+echo '<img src="'.(new chillerlan\QRCode\QRCode)->render($data).'" />';
+```
+
 <p align="center">
 	<img alt="QR codes are awesome!" src="https://raw.githubusercontent.com/chillerlan/php-qrcode/master/examples/example_image.png">
 	<img alt="QR codes are awesome!" src="https://raw.githubusercontent.com/chillerlan/php-qrcode/master/examples/example_svg.png">
